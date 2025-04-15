@@ -80,3 +80,7 @@ docker run \
     -v ${PWD}:/usr/share/nginx/html \
     --rm \
     nginx
+
+
+# интерактивный терминал 
+docker exec -t a71868ead693 sh
